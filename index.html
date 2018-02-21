@@ -1,12 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<meta charset="utf-8">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Koste Budinoski</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<title>Koste Budinoski | Software Engineer</title>
 </head>
-<body>
-    <p>Hello World!</p>
+<style>
+
+.content {
+	width: 700px;
+	margin-left: auto; 
+	margin-right: auto;
+	display: block;
+}
+
+.short-info {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.avatar {
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(images/profile.jpg) no-repeat;
+	margin-left: auto; 
+	margin-right: auto;
+	display: block;
+}
+
+.avatar img {
+	width: 150px;
+	height: 150px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.ack {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 5px;
+	text-align: right;
+	font-size: 8pt;
+	color: #999999;
+}
+
+.ack a {
+	text-decoration: none;
+}
+
+.odi-badge.mini {
+	float:right;
+	margin-bottom:10px;
+}
+.copyright {
+	float:left;
+	clear:both;
+}
+
+span.glyphicon-user {
+    font-size: 1.5em;
+}
+
+span.glyphicon-book {
+    font-size: 1.5em;
+}
+
+span.glyphicon-folder-open {
+    font-size: 1.5em;
+}
+
+span.glyphicon-info-sign {
+    font-size: 1.5em;
+}
+
+.row {
+	padding-top: 10px;
+}
+
+body {
+  background: #fcfcfa;
+  text-align: center;
+  display: block;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+</style>
+<body vocab="http://schema.org/">
+	<div class="content" itemscope itemtype="http://schema.org/Person" typeof="Person">
+		<h1 itemprop="name" property="name"><span itemprop="givenName" property="givenName">Koste</span> <span itemprop="familyName" property="familyName">Budinoski</span></h1>
+		<h3 itemprop="description" property="description">Master in Computer Science, Developer, Traveler</h3>
+		<div class="avatar"><img itemprop="image" property="image" src="images/profile.jpg"/></div>
+		<div class="short-info">			
+			Currently working as a Software Engineer at <span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" property="worksFor" typeof="Organization"><span itemprop="name" property="name"><a itemprop="url" property="url" href="https://info.marktguru.at/" target="_blank">Marktguru</a></span>
+		</div>
+		<a itemprop="sameAs" property="sameAs" href="https://www.linkedin.com/in/kostebudinoski/" target="_blank">LinkedIn</a> | <a itemprop="sameAs" property="sameAs" href="https://github.com/kostebudinoski/" target="_blank">GitHub</a> | <a itemprop="sameAs" property="sameAs" href="https://twitter.com/kbudinoski/" target="_blank">Twitter</a>
+		</div>
+		<div class="ack">
+		</div>
+		<link rel="alternate" type="text/turtle" title="My FOAF" href="foaf.ttl" />
+	</div>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114613127-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-114613127-1');
+	</script>
 </body>
-</html>
