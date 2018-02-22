@@ -10,5 +10,5 @@
    ; foaf:account <https://www.linkedin.com/in/kostebudinoski> 
    ; foaf:account <https://twitter.com/kbudinoski> 
    ; foaf:based_near "Vienna, Austria" 
-   ; foaf:img <http://mjovanovik.com/images/profile.jpg> 
+   ; foaf:img <https://kostebudinoski.github.io/images/profile.jpg> 
 . 
