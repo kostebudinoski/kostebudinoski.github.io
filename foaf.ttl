@@ -4,10 +4,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <Me> a foaf:Person 
+   ; foaf:name "Koste Budinoski"
    ; foaf:givenName "Koste" 
    ; foaf:familyName "Budinoski"
    ; foaf:homepage <https://kostebudinoski.github.io>
    ; foaf:account <https://www.linkedin.com/in/kostebudinoski> 
+   ; foaf:account <https://github.com/kostebudinoski> 
    ; foaf:based_near "Vienna, Austria" 
    ; foaf:img <https://kostebudinoski.github.io/images/profile.jpg> 
 . 
