@@ -11,58 +11,112 @@
 	<meta property="og:url" content="https://kostebudinoski.dev/">
 	<meta property="og:image" content="https://kostebudinoski.dev/images/profile.jpg">
 	<meta property="og:image:alt" content="Koste Budinoski">
-	<meta name="theme-color" content="#2563eb">
+	<meta name="theme-color" content="#0d1117">
+	<meta name="theme-color" content="#fdf6e3" media="(prefers-color-scheme: light)">
 	<link rel="canonical" href="https://kostebudinoski.dev/">
 	<link rel="sitemap" type="application/xml" href="https://kostebudinoski.dev/sitemap.xml">
 	<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap">
 	<link rel="stylesheet" href="styles.css">
 	<script src="analytics.js" defer></script>
 	<title>Koste Budinoski | Experienced Software Engineer</title>
 </head>
 <body>
-	<main class="shell hero" itemscope itemtype="https://schema.org/Person">
-		<section class="hero-card">
-			<img class="avatar" itemprop="image" property="image" src="images/profile.jpg" alt="Koste Budinoski">
-			<p class="eyebrow" itemprop="jobTitle">Experienced Software Engineer</p>
-			<h1 itemprop="name" property="name">
-				<span itemprop="givenName" property="givenName">Koste</span>
-				<span itemprop="familyName" property="familyName">Budinoski</span>
-			</h1>
-			<p class="tagline" itemprop="description">Building scalable retail and fintech systems with pragmatic engineering, clean architecture, and product focus.</p>
-			<p class="short-info">
-				Currently working at
-				<span itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
-					<a itemprop="url" href="https://info.marktguru.at/" target="_blank" rel="noopener">
-						<span itemprop="name">Marktguru</span>
-					</a>
-				</span>
-				in <span itemprop="homeLocation" itemscope itemtype="https://schema.org/Place"><span itemprop="name">Vienna, Austria</span></span>.
-			</p>
-			<p class="expertise-summary">
-				Experienced software engineer with 20+ years of experience crafting robust, scalable solutions for diverse industries. Proven in designing, developing, and optimizing complex systems, leading teams, and applying emerging technologies to deliver practical, modern software.
-			</p>
-			<div class="cta-row" aria-label="Contact links">
-				<a class="button button-primary" itemprop="sameAs" href="https://www.linkedin.com/in/kostebudinoski/" target="_blank" rel="noopener" data-analytics-event="linkedin_click" data-analytics-label="Homepage LinkedIn CTA">Connect on LinkedIn</a>
-				<a class="button" itemprop="sameAs" href="https://github.com/kostebudinoski/" target="_blank" rel="noopener" data-analytics-event="github_click" data-analytics-label="Homepage GitHub CTA">View GitHub</a>
+	<a class="skip" href="#main">Skip to content</a>
+	<header class="chrome" role="banner">
+		<span class="chrome__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+		<span class="chrome__title"><b>koste@vienna</b><span class="sep">:</span>~/personal<span class="sep">$</span>zsh</span>
+		<span class="chrome__meta"><span class="ok">●</span> connected</span>
+	</header>
+
+	<main id="main" class="term" itemscope itemtype="https://schema.org/Person">
+		<section class="cmd-block">
+			<p class="prompt"><span class="dollar">$</span><span class="cmd">whoami</span></p>
+			<div class="output hero">
+				<figure class="hero__portrait">
+					<img itemprop="image" property="image" src="images/profile.jpg" alt="Koste Budinoski" width="160" height="200" loading="eager" decoding="async">
+					<figcaption>profile.jpg</figcaption>
+				</figure>
+				<div class="hero__text">
+					<h1 class="hero__name" itemprop="name" property="name">
+						<span itemprop="givenName" property="givenName">Koste</span> <span class="last" itemprop="familyName" property="familyName">Budinoski</span>
+					</h1>
+					<p class="hero__rule" aria-hidden="true">─────────────────</p>
+					<p class="hero__role">
+						<span itemprop="jobTitle">Experienced Software Engineer</span><span class="sep">·</span>20+ years<span class="sep">·</span>since 2007
+					</p>
+					<dl class="hero__status" aria-label="Status">
+						<dt>location</dt>
+						<dd itemprop="homeLocation" itemscope itemtype="https://schema.org/Place"><span itemprop="name">Vienna, AT</span></dd>
+						<dt>tenure</dt>
+						<dd>20+ years</dd>
+						<dt>contact</dt>
+						<dd><a href="https://www.linkedin.com/in/kostebudinoski/" target="_blank" rel="noopener" data-analytics-event="linkedin_click" data-analytics-label="Homepage status contact LinkedIn">DM on LinkedIn ↗</a></dd>
+						<dt>status</dt>
+						<dd><span class="dot" aria-hidden="true"></span>online</dd>
+					</dl>
+				</div>
 			</div>
-			<nav class="card-grid" aria-label="Primary">
-				<a class="feature-card" href="cv.html" data-analytics-event="cv_click" data-analytics-label="Homepage Experience card">
-					<span class="feature-icon" aria-hidden="true">CV</span>
-					<span>
-						<strong>Experience</strong>
-						<small>Career and education</small>
-					</span>
-				</a>
-				<a class="feature-card" href="publications.html" data-analytics-event="publications_click" data-analytics-label="Homepage Publications card">
-					<span class="feature-icon" aria-hidden="true">PB</span>
-					<span>
-						<strong>Publications</strong>
-						<small>Research papers</small>
-					</span>
-				</a>
-			</nav>
 		</section>
+
+		<section class="cmd-block">
+			<p class="prompt"><span class="dollar">$</span><span class="cmd">cat</span> <span class="arg">about.md</span></p>
+			<div class="output">
+				<p itemprop="description">Building scalable retail &amp; fintech systems with pragmatic engineering, clean architecture, and product focus.</p>
+				<p>An experienced software engineer with <span class="em">twenty-plus years</span> crafting robust, scalable solutions for diverse industries. Proven in designing, developing, and optimising complex systems, leading teams, and applying emerging technologies to deliver practical, modern software.</p>
+			</div>
+		</section>
+
+		<section class="cmd-block">
+			<p class="prompt"><span class="dollar">$</span><span class="cmd">ls</span> <span class="flag">-1</span> <span class="arg">~/links/</span></p>
+			<div class="output">
+				<ol class="links" aria-label="Primary navigation">
+					<li>
+						<a href="cv.html" data-analytics-event="cv_click" data-analytics-label="Homepage Experience link">
+							<span class="num">[01]</span>
+							<span class="name">experience.log</span>
+							<span class="desc">career &amp; education</span>
+							<span class="arrow" aria-hidden="true">→</span>
+						</a>
+					</li>
+					<li>
+						<a href="publications.html" data-analytics-event="publications_click" data-analytics-label="Homepage Publications link">
+							<span class="num">[02]</span>
+							<span class="name">publications.md</span>
+							<span class="desc">research papers</span>
+							<span class="arrow" aria-hidden="true">→</span>
+						</a>
+					</li>
+					<li>
+						<a itemprop="sameAs" href="https://www.linkedin.com/in/kostebudinoski/" target="_blank" rel="noopener" data-analytics-event="linkedin_click" data-analytics-label="Homepage LinkedIn CTA">
+							<span class="num">[03]</span>
+							<span class="name">linkedin/</span>
+							<span class="desc">professional network</span>
+							<span class="arrow" aria-hidden="true">↗</span>
+						</a>
+					</li>
+					<li>
+						<a itemprop="sameAs" href="https://github.com/kostebudinoski/" target="_blank" rel="noopener" data-analytics-event="github_click" data-analytics-label="Homepage GitHub CTA">
+							<span class="num">[04]</span>
+							<span class="name">github/</span>
+							<span class="desc">code &amp; projects</span>
+							<span class="arrow" aria-hidden="true">↗</span>
+						</a>
+					</li>
+				</ol>
+			</div>
+		</section>
+
+		<p class="term-end" aria-hidden="true"><span class="dollar">$</span><span class="caret"></span></p>
 	</main>
+
+	<footer class="footer">
+		<span>&copy; Koste Budinoski &middot; 2007–2026</span>
+		<a href="foaf.ttl">foaf.ttl</a>
+	</footer>
+
 	<link rel="alternate" type="text/turtle" title="My FOAF" href="foaf.ttl">
 	<script type="application/ld+json">
 		{

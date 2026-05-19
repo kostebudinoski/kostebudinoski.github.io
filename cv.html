@@ -11,83 +11,121 @@
 	<meta property="og:url" content="https://kostebudinoski.dev/cv.html">
 	<meta property="og:image" content="https://kostebudinoski.dev/images/profile.jpg">
 	<meta property="og:image:alt" content="Koste Budinoski">
-	<meta name="theme-color" content="#2563eb">
+	<meta name="theme-color" content="#0d1117">
+	<meta name="theme-color" content="#fdf6e3" media="(prefers-color-scheme: light)">
 	<link rel="canonical" href="https://kostebudinoski.dev/cv.html">
 	<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap">
 	<link rel="stylesheet" href="styles.css">
 	<script src="analytics.js" defer></script>
 	<title>Koste Budinoski | Experience</title>
 </head>
 <body>
-	<main class="shell">
-		<header class="page-header">
-			<a class="home-link" href="index.html" data-analytics-event="home_click" data-analytics-label="Experience page home link">Koste Budinoski</a>
-			<h1>Professional Experience</h1>
-			<p>Software engineering experience across retail tech, fintech, gaming, and software consulting.</p>
-		</header>
-		<section class="timeline" aria-label="Professional experience">
-			<article class="timeline-item">
-				<div>
-					<h2>Marktguru</h2>
-					<p>Staff Software Engineer</p>
-				</div>
-				<a href="https://info.marktguru.at/" target="_blank" rel="noopener" data-analytics-event="company_click" data-analytics-label="Marktguru">2018 - Present</a>
-			</article>
-			<article class="timeline-item">
-				<div>
-					<h2>Global Blue</h2>
-					<p>Senior Software Engineer</p>
-				</div>
-				<a href="http://www.globalblue.com/" target="_blank" rel="noopener" data-analytics-event="company_click" data-analytics-label="Global Blue">2016 - 2018</a>
-			</article>
-			<article class="timeline-item">
-				<div>
-					<h2>Bwin.party</h2>
-					<p>Senior Software Engineer</p>
-				</div>
-				<a href="https://www.bwin.com/" target="_blank" rel="noopener" data-analytics-event="company_click" data-analytics-label="Bwin.party">2013 - 2016</a>
-			</article>
-			<article class="timeline-item">
-				<div>
-					<h2>Cosmic Development</h2>
-					<p>Senior Software Engineer</p>
-				</div>
-				<a href="http://www.cosmicdevelopment.com/" target="_blank" rel="noopener" data-analytics-event="company_click" data-analytics-label="Cosmic Development">2012 - 2013</a>
-			</article>
-			<article class="timeline-item">
-				<div>
-					<h2>Babylon Software Solution</h2>
-					<p>Senior Software Engineer, Technical Lead</p>
-				</div>
-				<a href="http://bss.com.mk/" target="_blank" rel="noopener" data-analytics-event="company_click" data-analytics-label="Babylon Software Solution">2010 - 2012</a>
-			</article>
-			<article class="timeline-item">
-				<div>
-					<h2>Nextsense</h2>
-					<p>Software Developer</p>
-				</div>
-				<a href="http://www.nextsense.com/" target="_blank" rel="noopener" data-analytics-event="company_click" data-analytics-label="Nextsense">2007 - 2010</a>
-			</article>
+	<a class="skip" href="#main">Skip to content</a>
+	<header class="chrome" role="banner">
+		<span class="chrome__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+		<span class="chrome__title"><b>koste@vienna</b><span class="sep">:</span>~/personal/experience<span class="sep">$</span>zsh</span>
+		<span class="chrome__meta"><span class="ok">●</span> connected</span>
+	</header>
+
+	<main id="main" class="term">
+		<h1 class="page-h1"><span class="page-h1__hash">#</span> Experience</h1>
+		<section class="cmd-block">
+			<p class="prompt"><span class="dollar">$</span><span class="cmd">cd</span> <span class="arg">..</span> <span class="comment">&amp;&amp; <a class="prompt-link" href="index.html" data-analytics-event="home_click" data-analytics-label="Experience page home link">return to ~</a></span></p>
 		</section>
-		<section class="section-card">
-			<h1>Education</h1>
-			<div class="education-grid">
-				<article>
-					<p class="eyebrow">2009 - 2012</p>
-					<h2>Master of Science (M.Sc.)</h2>
-					<p>Computer Science and Engineering</p>
-					<a href="http://www.feit.ukim.edu.mk" target="_blank" rel="noopener" data-analytics-event="education_click" data-analytics-label="FEIT Master">Faculty of Electrical Engineering and Information Technologies</a>
-					<a href="http://www.ukim.edu.mk" target="_blank" rel="noopener" data-analytics-event="education_click" data-analytics-label="UKIM Master">Ss. Cyril and Methodius University in Skopje, Macedonia</a>
-				</article>
-				<article>
-					<p class="eyebrow">2005 - 2009</p>
-					<h2>Bachelor of Science (B.Sc.)</h2>
-					<p>Informatics and Computer Engineering</p>
-					<a href="http://www.feit.ukim.edu.mk" target="_blank" rel="noopener" data-analytics-event="education_click" data-analytics-label="FEIT Bachelor">Faculty of Electrical Engineering and Information Technologies</a>
-					<a href="http://www.ukim.edu.mk" target="_blank" rel="noopener" data-analytics-event="education_click" data-analytics-label="UKIM Bachelor">Ss. Cyril and Methodius University in Skopje, Macedonia</a>
-				</article>
+
+		<section class="cmd-block">
+			<p class="prompt"><span class="dollar">$</span><span class="cmd">less</span> <span class="arg">experience.log</span></p>
+			<div class="output">
+				<table class="term-table" aria-label="Professional experience">
+					<thead>
+						<tr>
+							<th scope="col">Year</th>
+							<th scope="col">Company</th>
+							<th scope="col">Role</th>
+							<th scope="col" style="text-align:right;">Link</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="col-year current"><span class="status">●</span>2018 — now</td>
+							<th scope="row" class="col-company">Marktguru</th>
+							<td class="col-role">Staff Software Engineer</td>
+							<td class="col-link"><a href="https://info.marktguru.at/" target="_blank" rel="noopener" data-analytics-event="company_click" data-analytics-label="Marktguru">marktguru.at ↗</a></td>
+						</tr>
+						<tr>
+							<td class="col-year">2016 — 2018</td>
+							<th scope="row" class="col-company">Global Blue</th>
+							<td class="col-role">Senior Software Engineer</td>
+							<td class="col-link"><a href="http://www.globalblue.com/" target="_blank" rel="noopener" data-analytics-event="company_click" data-analytics-label="Global Blue">globalblue.com ↗</a></td>
+						</tr>
+						<tr>
+							<td class="col-year">2013 — 2016</td>
+							<th scope="row" class="col-company">Bwin.party</th>
+							<td class="col-role">Senior Software Engineer</td>
+							<td class="col-link"><a href="https://www.bwin.com/" target="_blank" rel="noopener" data-analytics-event="company_click" data-analytics-label="Bwin.party">bwin.com ↗</a></td>
+						</tr>
+						<tr>
+							<td class="col-year">2012 — 2013</td>
+							<th scope="row" class="col-company">Cosmic Development</th>
+							<td class="col-role">Senior Software Engineer</td>
+							<td class="col-link"><a href="http://www.cosmicdevelopment.com/" target="_blank" rel="noopener" data-analytics-event="company_click" data-analytics-label="Cosmic Development">cosmicdevelopment.com ↗</a></td>
+						</tr>
+						<tr>
+							<td class="col-year">2010 — 2012</td>
+							<th scope="row" class="col-company">Babylon Software Solution</th>
+							<td class="col-role">Software Engineer</td>
+							<td class="col-link"><a href="http://bss.com.mk/" target="_blank" rel="noopener" data-analytics-event="company_click" data-analytics-label="Babylon Software Solution">bss.com.mk ↗</a></td>
+						</tr>
+						<tr>
+							<td class="col-year">2007 — 2010</td>
+							<th scope="row" class="col-company">Nextsense</th>
+							<td class="col-role">Software Engineer</td>
+							<td class="col-link"><a href="http://www.nextsense.com/" target="_blank" rel="noopener" data-analytics-event="company_click" data-analytics-label="Nextsense">nextsense.com ↗</a></td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</section>
+
+		<section class="cmd-block">
+			<p class="prompt"><span class="dollar">$</span><span class="cmd">less</span> <span class="arg">education.log</span></p>
+			<div class="output">
+				<table class="term-table" aria-label="Education">
+					<thead>
+						<tr>
+							<th scope="col">Year</th>
+							<th scope="col">Degree</th>
+							<th scope="col">Field</th>
+							<th scope="col" style="text-align:right;">Institution</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="col-year">2009 — 2012</td>
+							<th scope="row" class="col-company">MSc</th>
+							<td class="col-role">Computer Science &amp; Engineering</td>
+							<td class="col-link"><a href="http://www.feit.ukim.edu.mk" target="_blank" rel="noopener" data-analytics-event="education_click" data-analytics-label="FEIT Master">feit.ukim.edu.mk ↗</a></td>
+						</tr>
+						<tr>
+							<td class="col-year">2005 — 2009</td>
+							<th scope="row" class="col-company">BSc</th>
+							<td class="col-role">Informatics &amp; Computer Engineering</td>
+							<td class="col-link"><a href="http://www.feit.ukim.edu.mk" target="_blank" rel="noopener" data-analytics-event="education_click" data-analytics-label="FEIT Bachelor">feit.ukim.edu.mk ↗</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<p class="term-end" aria-hidden="true"><span class="dollar">$</span><span class="caret"></span></p>
 	</main>
+
+	<footer class="footer">
+		<span>&copy; Koste Budinoski &middot; 2007–2026</span>
+		<a href="index.html">return to ~</a>
+	</footer>
 </body>
 </html>
