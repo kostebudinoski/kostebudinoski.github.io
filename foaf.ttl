@@ -1,4 +1,4 @@
-@base <https://kostebudinoski.github.io/foaf.ttl#> .
+@base <https://kostebudinoski.dev/foaf.ttl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -7,9 +7,9 @@
    ; foaf:name "Koste Budinoski"
    ; foaf:givenName "Koste" 
    ; foaf:familyName "Budinoski"
-   ; foaf:homepage <https://kostebudinoski.github.io>
+   ; foaf:homepage <https://kostebudinoski.dev>
    ; foaf:account <https://www.linkedin.com/in/kostebudinoski> 
    ; foaf:account <https://github.com/kostebudinoski> 
    ; foaf:based_near "Vienna, Austria" 
-   ; foaf:img <https://kostebudinoski.github.io/images/profile.jpg> 
+   ; foaf:img <https://kostebudinoski.dev/images/profile.jpg> 
 . 
