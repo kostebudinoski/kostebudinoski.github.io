@@ -16,6 +16,7 @@
 	<link rel="sitemap" type="application/xml" href="https://kostebudinoski.github.io/sitemap.xml">
 	<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 	<link rel="stylesheet" href="styles.css">
+	<script src="analytics.js" defer></script>
 	<title>Koste Budinoski | Experienced Software Engineer</title>
 </head>
 <body>
@@ -41,18 +42,18 @@
 				Experienced software engineer with 20+ years of experience crafting robust, scalable solutions for diverse industries. Proven in designing, developing, and optimizing complex systems, leading teams, and applying emerging technologies to deliver practical, modern software.
 			</p>
 			<div class="cta-row" aria-label="Contact links">
-				<a class="button button-primary" itemprop="sameAs" href="https://www.linkedin.com/in/kostebudinoski/" target="_blank" rel="noopener">Connect on LinkedIn</a>
-				<a class="button" itemprop="sameAs" href="https://github.com/kostebudinoski/" target="_blank" rel="noopener">View GitHub</a>
+				<a class="button button-primary" itemprop="sameAs" href="https://www.linkedin.com/in/kostebudinoski/" target="_blank" rel="noopener" data-analytics-event="linkedin_click" data-analytics-label="Homepage LinkedIn CTA">Connect on LinkedIn</a>
+				<a class="button" itemprop="sameAs" href="https://github.com/kostebudinoski/" target="_blank" rel="noopener" data-analytics-event="github_click" data-analytics-label="Homepage GitHub CTA">View GitHub</a>
 			</div>
 			<nav class="card-grid" aria-label="Primary">
-				<a class="feature-card" href="cv.html">
+				<a class="feature-card" href="cv.html" data-analytics-event="cv_click" data-analytics-label="Homepage Experience card">
 					<span class="feature-icon" aria-hidden="true">CV</span>
 					<span>
 						<strong>Experience</strong>
 						<small>Career and education</small>
 					</span>
 				</a>
-				<a class="feature-card" href="publications.html">
+				<a class="feature-card" href="publications.html" data-analytics-event="publications_click" data-analytics-label="Homepage Publications card">
 					<span class="feature-icon" aria-hidden="true">PB</span>
 					<span>
 						<strong>Publications</strong>
@@ -98,13 +99,6 @@
 				"https://github.com/kostebudinoski/"
 			]
 		}
-	</script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114613127-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-		gtag('config', 'UA-114613127-1');
 	</script>
 </body>
 </html>
